@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26bd10deaa6cf5be15c957cdd4736d9d",
+    "content-hash": "2c3a3d5fc67318708fe4a9f39612b188",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,16 +130,16 @@
         },
         {
             "name": "drupal/drupal",
-            "version": "8.4.1",
+            "version": "8.5.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/drupal.git",
-                "reference": "27489b385ac55d886bf4cb59913512215f3836aa"
+                "reference": "3c5a5276ab17f2e117ecaae6ecda16f918e5fb7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/drupal/zipball/27489b385ac55d886bf4cb59913512215f3836aa",
-                "reference": "27489b385ac55d886bf4cb59913512215f3836aa",
+                "url": "https://api.github.com/repos/drupal/drupal/zipball/3c5a5276ab17f2e117ecaae6ecda16f918e5fb7d",
+                "reference": "3c5a5276ab17f2e117ecaae6ecda16f918e5fb7d",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
                 "wikimedia/composer-merge-plugin": "^1.4"
             },
             "replace": {
-                "drupal/core": "^8.4"
+                "drupal/core": "^8.5"
             },
             "type": "project",
             "extra": {
@@ -162,7 +162,7 @@
                     "include": [
                         "core/composer.json"
                     ],
-                    "recurse": false,
+                    "recurse": true,
                     "replace": false,
                     "merge-extra": false
                 },
@@ -197,10 +197,10 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2017-11-01T18:38:24+00:00"
+            "time": "2019-01-15T17:41:56+00:00"
         },
         {
             "name": "wikimedia/composer-merge-plugin",
